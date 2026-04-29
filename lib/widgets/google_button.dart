@@ -41,15 +41,21 @@ class GoogleSignInButton extends StatelessWidget {
                   Image.network(
                     'https://auth.totalx.co.in/static/media/google.2547d25e4070a3598585.png',
                     height: 24,
-                    errorBuilder: (context, error, stackTrace) => const Icon(Icons.login),
+                    errorBuilder: (context, error, stackTrace) =>
+                        const Icon(Icons.login),
                   ),
                   const SizedBox(width: 12),
                   const Text(
                     'Sign in with Google',
-                    style: TextStyle(
-                      fontSize: 16,
-                      fontWeight: FontWeight.w600,
-                    ),
+                    style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+                  ),
+                  const Text(
+                    'Sign in with Google',
+                    style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+                  ),
+                  const Text(
+                    'Sign in with Google',
+                    style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
                   ),
                 ],
               ),
