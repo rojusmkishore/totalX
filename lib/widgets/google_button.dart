@@ -49,14 +49,6 @@ class GoogleSignInButton extends StatelessWidget {
                     'Sign in with Google',
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
                   ),
-                  const Text(
-                    'Sign in with Google',
-                    style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
-                  ),
-                  const Text(
-                    'Sign in with Google',
-                    style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
-                  ),
                 ],
               ),
       ),
